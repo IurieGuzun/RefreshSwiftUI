@@ -13,6 +13,7 @@
 		8A84A26625A7C42500050992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A84A26525A7C42500050992 /* Assets.xcassets */; };
 		8A84A26925A7C42500050992 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A84A26825A7C42500050992 /* Preview Assets.xcassets */; };
 		8A84A26C25A7C42500050992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A84A26A25A7C42500050992 /* LaunchScreen.storyboard */; };
+		8A84A27425A7C4DF00050992 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A84A27325A7C4DF00050992 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8A84A26825A7C42500050992 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A84A26B25A7C42500050992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A84A26D25A7C42500050992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A84A27325A7C4DF00050992 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8A84A25F25A7C42400050992 /* AppDelegate.swift */,
 				8A84A26125A7C42400050992 /* SceneDelegate.swift */,
 				8A84A26325A7C42400050992 /* ContentView.swift */,
+				8A84A27325A7C4DF00050992 /* UserData.swift */,
 				8A84A26525A7C42500050992 /* Assets.xcassets */,
 				8A84A26A25A7C42500050992 /* LaunchScreen.storyboard */,
 				8A84A26D25A7C42500050992 /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				8A84A26025A7C42400050992 /* AppDelegate.swift in Sources */,
 				8A84A26225A7C42400050992 /* SceneDelegate.swift in Sources */,
+				8A84A27425A7C4DF00050992 /* UserData.swift in Sources */,
 				8A84A26425A7C42400050992 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
