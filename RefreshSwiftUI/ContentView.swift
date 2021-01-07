@@ -9,13 +9,27 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State var isPresented = false
+    @ObservedObject var userData = UserData()
+
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text(self.userData.name)
+                .font(.largeTitle)
+
+            Button(action: { self.isPresented.toggle() }) {
+                    Text("Click me to Edit")
+            }
+            .sheet(isPresented: $isPresented) {
+                Edit()
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }
